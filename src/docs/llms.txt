@@ -1,6 +1,0 @@
-# EuroArgoDev
-
-## Pages
-
-- [About EuroArgoDev](about.llms.md)
-- [EuroArgoDev](index.llms.md)
