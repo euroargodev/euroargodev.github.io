@@ -4,3 +4,5 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+img/pictograms.zip
+/.ipynb_checkpoints

@@ -1,0 +1,72 @@
+name: py11-eadev
+channels:
+  - conda-forge
+dependencies:
+  - python = 3.11
+
+# CORE:
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - netCDF4
+
+# UTILS:
+  - tqdm
+  - zarr
+
+# WEB - CLOUD:
+  - aiohttp
+  - erddapy
+  - fsspec
+  - requests
+#  - boto3
+#  - gsw
+#  - s3fs
+
+# PERFORMANCE:
+  - dask
+  - distributed
+  - h5netcdf
+  - pyarrow
+  - ipyparallel
+
+# NOTEBOOKS:
+  - notebook
+  - jupyterlab
+  - voila
+  - IPython
+  - ipykernel
+  - ipywidgets
+  - nodejs
+
+# PLOTTING:
+  - cartopy
+  - matplotlib
+  - pyproj
+  - seaborn
+  - regionmask
+
+# ARGO AND DATA:
+  - argopy==1.4.0
+  - copernicusmarine
+
+# DEV:
+  - aiofiles
+  - black
+  - bottleneck
+  - cfgrib
+  - cftime
+  - codespell
+  - flake8
+  - pip
+  - sphinx
+  - autopep8
+  - pydocstyle
+  - pygithub
+
+
+# PIP:
+  - pip: dask-labextension
+  - pip: python-lsp-server
+  - pip: python-language-server
