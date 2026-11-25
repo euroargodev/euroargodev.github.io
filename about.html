@@ -358,6 +358,14 @@ It currently hosts tools and materials related to Argo in general.</p>
   </div>
 </div>
  <!-- /main -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const externalLinks = document.querySelectorAll('a[target="_blank"]');
+  externalLinks.forEach(link => {
+    link.classList.add('external-link');
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
