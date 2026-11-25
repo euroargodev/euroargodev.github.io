@@ -25,15 +25,15 @@ website:
   repo-url: https://github.com/euroargodev/euroargodev.github.io
   repo-actions: [edit, source, issue]
   repo-subdir: src
-  announcement:
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - this is some information that you should pay attention to"
-    type: primary
-    position: below-navbar
   plausible-analytics:
     path: _plausible.html
-  cookie-consent: true
+  cookie-consent: false
+#  announcement:
+#    icon: info-circle
+#    dismissable: true
+#    content: "**Alert** - this is some information that you should pay attention to"
+#    type: primary
+#    position: below-navbar
 
 format:
   html:
