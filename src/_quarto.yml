@@ -1,0 +1,57 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  favicon: assets/images/Argo_logo_tallspacer.png
+  title: "EuroArgoDev"
+  navbar:
+    pinned: true
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+  bread-crumbs: true
+  page-navigation: true
+  page-footer:
+    center: ©️ EuroArgoDev management team
+    right:
+      - icon: github
+        href: https://github.com/euroargodev/euroargodev.github.io
+        aria-label: EuroArgoDev editorial web site
+  llms-txt: true
+  repo-url: https://github.com/euroargodev/euroargodev.github.io
+  repo-actions: [edit, source, issue]
+  repo-subdir: src
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - this is some information that you should pay attention to"
+    type: primary
+    position: below-navbar
+  plausible-analytics:
+    path: _plausible.html
+  cookie-consent: true
+
+format:
+  html:
+    theme:
+      light: yeti
+      dark: darkly
+    respect-user-color-scheme: true
+    css: assets/css/styles.css
+    toc: true
+    include-after-body:
+      - assets/js/script.js.html
+
+resources:
+  - "assets/css/"
+  - "assets/csv/"
+  - "assets/images/"
+  - "assets/js/"
+  - "assets/json/"
+
+execute:
+  freeze: auto
