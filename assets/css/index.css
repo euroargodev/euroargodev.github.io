@@ -1,0 +1,99 @@
+body.quarto-light{
+    min-height: 95vh;
+    background-size: cover;
+}
+
+body.quarto-light .title{
+    font-size: 2.5rem;
+    color: #153561;
+}
+
+body.quarto-dark .title{
+    font-size: 2.5rem;
+    color: #007B8A;
+}
+
+.column-screen {
+    background: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hero-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+body.quarto-light .hero-banner h1 {
+    color: #153561;
+    font-size: 2.5rem;
+}
+
+body.quarto-dark .hero-banner h1 {
+    color: #007B8A;
+    font-size: 2.5rem;
+}
+
+.hero-banner .content-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-block {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.alt-background {
+    background: transparent;
+    backdrop-filter: blur(4px);
+}
+
+.hello-quarto {
+    padding-bottom: 1rem;
+}
+
+@media (min-width: 600px) {
+.hello-quarto-banner {
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.hello-quarto-banner h1 {
+  margin-right: 40px;
+}
+}
+
+.hello-quarto-banner .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  border: none;
+  border-bottom: 2px solid #39729E !important;
+  color: #39729E;
+  background-color: transparent;
+
+}
+
+.hello-quarto-banner .nav-pills button {
+  width: 225px;
+}
+
+.hello-quarto .tab-content {
+  border: none;
+  padding: 0;
+  color: rgb(84, 85, 85);
+}
+
+.hello-quarto .tab-content p {
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
+.hello-output {
+  border: 1px solid #dee2e6;
+  max-height: 660px;
+}
+

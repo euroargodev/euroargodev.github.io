@@ -1,0 +1,6 @@
+# EuroArgoDev
+
+## Pages
+
+- [About EuroArgoDev](https://euroargodev.github.io/about.llms.md)
+- [EuroArgoDev](https://euroargodev.github.io/index.llms.md)
