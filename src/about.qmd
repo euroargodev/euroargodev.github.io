@@ -9,6 +9,5 @@ about:
       href: https://github.com/euroargodev
 ---
 
-
 Created in December 2019 for the Euro-Argo community to foster R&D and to provide a collaborative framework for the development and improvement of DMQC for Argo, the use of the platform has since then expanded.  
 It currently hosts tools and materials related to Argo in general.

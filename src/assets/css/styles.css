@@ -29,19 +29,22 @@
 body {
   font-size: 80%; /* Ou 15px, 95%, etc. */
 }
+h1.quarto-light, h2.quarto-light, h3.quarto-light {
+  color: #153561;
+}
+h1.quarto-dark, h2.quarto-dark, h3.quarto-light {
+  color: #153561;
+}
 h1 {
   font-size: 2.2em; /* Exemple: légèrement plus petit que la taille par défaut */
-  color: #153561;
 }
 h2 {
   font-size: 1.8em; /* Exemple: légèrement plus petit que la taille par défaut */
-  color: #153561;
 }
 
 /* Icône de lune pour le mode clair */
 body.quarto-light .quarto-color-scheme-toggle > i {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath d='M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286'%3E%3C/path%3E%3C/svg%3E");
-
 }
 
 /* Icône de soleil pour le mode sombre */
@@ -76,11 +79,11 @@ body.quarto-dark .tab-content p{
 .navbar-brand {
     position: relative;
     width: 180px; /* Ajustez la largeur comme vous le souhaitez */
-    height: 80px; /* Ajustez la hauteur comme vous le souhaitez */
+    /*height: 80px; !* Ajustez la hauteur comme vous le souhaitez *!*/
 }
 
 /* Pseudo-élément pour le logo sombre */
-.navbar-brand::before {
+.quarto-dark .navbar-brand::before {
     content: "";
     background-image: url('../images/euroargodev-icon.png');
     background-size: contain;
@@ -93,9 +96,10 @@ body.quarto-dark .tab-content p{
 }
 
 /* Masquer le logo sombre en mode clair */
-.quarto-light .navbar-brand::before {
+.navbar-brand::before {
     display: none;
 }
+
 
 /* Pseudo-élément pour le logo clair */
 .quarto-light .navbar-brand::after {

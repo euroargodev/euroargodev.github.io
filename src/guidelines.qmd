@@ -1,0 +1,16 @@
+---
+title: "Software Development Guidelines"
+draft: true
+---
+
+As research scientists or engineers or data operators, developing scripts for your daily work is at the core of your 
+expertise. However, documenting, distributing and supporting a codebase for a larger community than yourself is not
+that easy.
+
+In the realm of oceanographic research infrastructures, the Argo program stands as a cornerstone, providing invaluable 
+examples of data management good practices. As part of the Euro-Argo ERIC, the development of collaborative and 
+open-source software is crucial for leveraging Argo data effectively. However, researchers and data engineers, who 
+may not have a background in software development, face unique challenges in creating software that are both robust 
+and compliant with FAIR principles (Findable, Accessible, Interoperable, and Reusable). This is where tailored 
+guidelines become essential.
+

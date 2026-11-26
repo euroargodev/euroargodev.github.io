@@ -1,0 +1,97 @@
+---
+format: dashboard
+---
+
+```{python}
+#| echo: false
+#| output: false
+import json
+import plotly.graph_objects as go
+
+# 1. LOAD THE DATA (https://euroargodev.github.io/Software-Evaluator/dashboard/)
+try:
+    with open('assets/json/20261125-dashboard_data.json', 'r') as f:
+        json_data = json.load(f)
+except FileNotFoundError:
+    # Fallback mock data if you run this outside the folder
+    print("Note: Dashboard file not found, using mock data for preview.")
+    pass
+
+# 2. PROCESS THE DATA (Calculating SIL/Health)
+repos_data = []
+for entry in json_data:
+    repo_name = entry["repository"]["repo"]
+    sil = entry["repository"].get("sil_level", 1)
+    
+    # Calculate Health Score (Percentage of met guidelines, those auto evaluated)
+    total_weight = entry['stats']['autoCriteria']
+    met_weight = entry['stats']['metCriteria']
+    
+    health_score = (met_weight / total_weight * 100) if total_weight > 0 else 0
+    
+    repos_data.append({
+        "name": repo_name,
+        "sil": sil,
+        "health": health_score,
+        "status": "Critical" if health_score < 50 else ("Warning" if health_score < 80 else "Healthy")
+    })
+
+# Sort by SIL level (bottom to top in chart: 1 -> 9)
+repos_data.sort(key=lambda x: x["sil"])
+    
+# Sort by SIL level (Descending: Highest SIL at top of pyramid)
+repos_data.sort(key=lambda x: x["sil"], reverse=True)
+```
+
+## {height=100%}
+
+```{python}
+#| echo: false
+#| output: asis
+#| renderings: [light, dark]
+
+# 3. CREATE THE VISUALIZATION
+fig1 = go.Figure()
+
+colors_map = {
+    "Critical": "#ef5350", # Red
+    "Warning":  "#feca57", # Orange
+    "Healthy":  "#43a047"  # Green
+}
+
+# Prepare trace data
+x_scores = [d['health'] for d in repos_data]
+y_labels = [f"SIL {d['sil']} - {d['name']}" for d in repos_data]
+colors = [colors_map[d['status']] for d in repos_data]
+
+# Add the main bar trace
+fig1 = fig1.add_trace(go.Bar(
+    x=x_scores,
+    y=y_labels,
+    orientation='h',
+    name='Health Score',
+    marker=dict(
+        color=colors,
+        line=dict(color='white', width=2)  # White gaps between stack blocks
+    ),
+    text=[f"{score:.0f}%" for score in x_scores],
+    textposition='auto', # Now valid because we are using a Bar chart!
+    hoverinfo='y+x',
+))
+
+# Update layout to look like a "Stack" or Pyramid base
+fig1.update_layout(
+    title_text="<b>ARGO SOFTWARE STACK HEALTH (Pyramid View)</b>",
+    yaxis_title="Repository & Maturity Level",
+    xaxis_title="Compliance Health Score (%)",
+    font=dict(family="Courier New, monospace", size=8),
+    height=1200,
+    showlegend=False, # Hide legend as labels are on the chart
+    template='plotly_white',
+    yaxis=dict(autorange="reversed"), # Ensure SIL 9 is at the top
+    xaxis=dict(range=[0, max(105, max(x_scores) + 5)]) # Dynamic range based on data
+)
+
+# Render the figure for Quarto
+# fig1.show()
+```

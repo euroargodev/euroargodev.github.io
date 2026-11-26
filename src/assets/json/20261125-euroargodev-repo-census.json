@@ -1,0 +1,2029 @@
+[
+  {
+    "repo": "dm_floats",
+    "description": "Matlab tools for creating  OWC input files and writing  D_files from OWC results",
+    "language": "MATLAB",
+    "topics": [
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "cabanesc"
+    ],
+    "last_commit": "2026-09-10 08:05",
+    "custom_properties": {}
+  },
+  {
+    "repo": "publicQCforum",
+    "description": "A public forum to talk about Quality Control of Argo measurements",
+    "language": "",
+    "topics": [
+      "argo-floats",
+      "dmqc",
+      "expertise",
+      "forum",
+      "quality-control",
+      "rtqc"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2023-03-08 00:41",
+    "custom_properties": {}
+  },
+  {
+    "repo": "erddap_usecases",
+    "description": "Showcase how to easily access Argo data",
+    "language": "Shell",
+    "topics": [
+      "argo-floats",
+      "erddap",
+      "helpers-library",
+      "python",
+      "tutorial"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2020-04-06 16:58",
+    "custom_properties": {}
+  },
+  {
+    "repo": "DIVAA",
+    "description": "DIVAA : Display Interface for Velocity And Argo data for the Argo-France program",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "gmaze",
+      "tristanlt",
+      "quai20"
+    ],
+    "last_commit": "2019-10-10 10:58",
+    "custom_properties": {}
+  },
+  {
+    "repo": "privateQCforum",
+    "description": "A private forum to talk about Quality Control of Argo measurements",
+    "language": "",
+    "topics": [
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2019-12-20 16:03",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argopy-osnet",
+    "description": "",
+    "language": "Python",
+    "topics": [
+      "argo-floats",
+      "machine-learning"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2025-12-17 08:17",
+    "custom_properties": {}
+  },
+  {
+    "repo": "ArgoData.jl",
+    "description": "Argo data processing and analysis",
+    "language": "Julia",
+    "topics": [],
+    "releases": [
+      "v0.2.8",
+      "v0.2.7",
+      "v0.2.6",
+      "v0.2.5",
+      "v0.2.4",
+      "v0.2.3",
+      "v0.2.2",
+      "v0.2.1",
+      "v0.2.0",
+      "v0.1.29",
+      "v0.1.28",
+      "v0.1.27",
+      "v0.1.26",
+      "v0.1.25",
+      "v0.1.24",
+      "v0.1.23",
+      "v0.1.22",
+      "v0.1.21",
+      "v0.1.20",
+      "v0.1.19",
+      "v0.1.18",
+      "v0.1.17",
+      "v0.1.16",
+      "v0.1.15",
+      "v0.1.14",
+      "v0.1.13",
+      "v0.1.12",
+      "v0.1.11",
+      "v0.1.10",
+      "v0.1.9"
+    ],
+    "contributors": [
+      "gaelforget",
+      "JuliaTagBot",
+      "enrico-mi",
+      "github-actions[bot]"
+    ],
+    "last_commit": "2026-10-12 03:45",
+    "custom_properties": {}
+  },
+  {
+    "repo": "techworkshop",
+    "description": "2020 Arvor/Provor Argo floats technical workshop",
+    "language": "CSS",
+    "topics": [
+      "argo-floats"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze",
+      "qjutard"
+    ],
+    "last_commit": "2020-04-15 20:10",
+    "custom_properties": {}
+  },
+  {
+    "repo": "recovery",
+    "description": "Working group on #argofloats recovery",
+    "language": "",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argofloat",
+      "monitoring"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2020-01-31 12:10",
+    "custom_properties": {}
+  },
+  {
+    "repo": "euroargodev.github.io",
+    "description": "Euro-Argo collaborative framework",
+    "language": "CSS",
+    "topics": [
+      "argo-floats"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-11-25 12:42",
+    "custom_properties": {}
+  },
+  {
+    "repo": "VirtualFleet",
+    "description": "Make and analyse simulations of virtual Argo float trajectories",
+    "language": "Python",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "simulation",
+      "software"
+    ],
+    "releases": [
+      "v0.5.3",
+      "v0.5.2",
+      "v0.5.1",
+      "v0.5.0",
+      "v0.4.0 Release",
+      "v0.3.1 Release",
+      "v0.3.0 EARISE release",
+      "Mission parameters tuning",
+      "VirtualFleet first release"
+    ],
+    "contributors": [
+      "gmaze",
+      "quai20",
+      "dependabot[bot]",
+      "fricour"
+    ],
+    "last_commit": "2026-11-09 14:57",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argopy",
+    "description": "A python library for Argo data beginners and experts",
+    "language": "Python",
+    "topics": [
+      "argo",
+      "argo-data",
+      "argo-floats",
+      "oceanography",
+      "python"
+    ],
+    "releases": [
+      "v1.5.0",
+      "v1.4.0 release",
+      "v1.3.1 release",
+      "v1.3.0 Mosquito release \ud83e\udd9f",
+      "v1.2.0 Octopus release \ud83d\udc19",
+      "v1.1.0 Dragon release \ud83d\udc09",
+      "v1.0.0 Unicorn Release \ud83e\udd84",
+      "v0.1.17 Bat Release \ud83e\udd87",
+      "v0.1.16 Flamingos Release \ud83e\udda9",
+      "v0.1.15 Baby chick Release \ud83d\udc25",
+      "v0.1.14 Frog release \ud83d\udc38",
+      "v0.1.14rc2 Cactus Release \ud83c\udf35",
+      "v0.1.14rc1 Duck Release \ud83e\udd86",
+      "v0.1.13 Snowflake Release \u2744\ufe0f",
+      "v0.1.12 Bee release \ud83d\udc1d ",
+      "v0.1.11 Rooster release \ud83d\udc13",
+      "v0.1.10 Fish release \ud83d\udc1f ",
+      "v0.1.9 Tropical release \ud83c\udfdd\ufe0f",
+      "v0.1.8: Halloween release \ud83c\udf83",
+      "v0.1.7: Happy new year release \ud83c\udf89",
+      "v0.1.6: JOSS paper",
+      "v0.1.5: Summer break release",
+      "v0.1.4",
+      "v0.1.3",
+      "v0.1.2",
+      "New local ftp data fetcher",
+      "Initial release"
+    ],
+    "contributors": [
+      "gmaze",
+      "dependabot[bot]",
+      "quai20",
+      "fricour",
+      "Jade2097",
+      "charles-turner-1",
+      "ocefpaf",
+      "DocOtak",
+      "ArneTR",
+      "dhruvbalwada",
+      "dicentiu",
+      "tylertucker202",
+      "alex-kolmakov",
+      "schwehr",
+      "rabernat"
+    ],
+    "last_commit": "2026-11-23 19:40",
+    "custom_properties": {
+      "Argo-SIL": "SIL-6 (Community-Driven Tool)"
+    }
+  },
+  {
+    "repo": "matlab_profiles_visualization",
+    "description": "A Matlab GUI to work with Argo data",
+    "language": "MATLAB",
+    "topics": [
+      "argo-data",
+      "argo-floats",
+      "data-visualization",
+      "matlab"
+    ],
+    "releases": [],
+    "contributors": [
+      "gnotarstefano",
+      "gmaze"
+    ],
+    "last_commit": "2020-04-07 17:27",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argopy-data",
+    "description": "Data repository for argopy examples and tests",
+    "language": "Python",
+    "topics": [
+      "argo-data",
+      "argo-floats"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-09-24 14:58",
+    "custom_properties": {}
+  },
+  {
+    "repo": "check_CTD-RDB",
+    "description": "Checking the status of the CTD Reference database (RDB)",
+    "language": "MATLAB",
+    "topics": [
+      "argo-floats",
+      "dmqc",
+      "matlab",
+      "qc",
+      "quality-control",
+      "reference-database"
+    ],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2023-02-08 16:46",
+    "custom_properties": {}
+  },
+  {
+    "repo": "User-Acceptance-Test-Python-version-of-the-OWC-tool",
+    "description": "BODC Argo team with consultation with other Argo partners took initiative to convert the OWC software from Matlab to Python. This initiative has been undertaken based on the output from the international survey about the methods and tools used in DMQC core data.  The following repository is dedicated for User Acceptance Testing.",
+    "language": "",
+    "topics": [
+      "argo-floats"
+    ],
+    "releases": [],
+    "contributors": [],
+    "last_commit": "2020-05-11 11:52",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argodmqc_owc",
+    "description": "Argo float salinity calibration software",
+    "language": "HTML",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "dmqc",
+      "oceanography",
+      "python",
+      "quality-control"
+    ],
+    "releases": [
+      "v0.2.1",
+      "Alpha - Add PCM mode",
+      "v0.2.0",
+      "change the format for parameter mapping settings",
+      "Add additional documentation",
+      "Add Github Links to PyPi",
+      "Improved Documentation",
+      "V0.1.8 - Testing",
+      "Test release",
+      "",
+      "",
+      "v0.1.0: Initial euroargodev release"
+    ],
+    "contributors": [
+      "edsmall-bodc",
+      "gmaze",
+      "kamwal",
+      "jamclar",
+      "halebodc",
+      "matcor451",
+      "dependabot[bot]",
+      "thogar-computer",
+      "MCazaly"
+    ],
+    "last_commit": "2026-08-06 09:10",
+    "custom_properties": {}
+  },
+  {
+    "repo": "BlueCloud",
+    "description": "Working space for BlueCloud demontrator 3 - Lops Task",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo-floats",
+      "machine-learning"
+    ],
+    "releases": [],
+    "contributors": [
+      "loicbachelot",
+      "AndreaGarciaJuan",
+      "gmaze",
+      "quai20"
+    ],
+    "last_commit": "2022-10-07 12:55",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argoonlineschool",
+    "description": "Here you can find find the source code of the Argo Online school. ",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo",
+      "argo-data",
+      "argo-floats",
+      "online-learning",
+      "python",
+      "training-material",
+      "tutorial"
+    ],
+    "releases": [
+      "V1.1.1",
+      "V1.1"
+    ],
+    "contributors": [
+      "PedroVelez",
+      "Alberto-GS",
+      "gmaze",
+      "kls2177"
+    ],
+    "last_commit": "2026-06-19 09:17",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argopy-status",
+    "description": "Argopy API status",
+    "language": "Python",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argofloat",
+      "monitoring"
+    ],
+    "releases": [],
+    "contributors": [
+      "argobot-hub",
+      "gmaze",
+      "dependabot[bot]"
+    ],
+    "last_commit": "2026-11-25 15:08",
+    "custom_properties": {}
+  },
+  {
+    "repo": "boundary_currents",
+    "description": "EARISE WP2.3 on Argo in Boundary Currents",
+    "language": "",
+    "topics": [
+      "argo-floats",
+      "ocean-boundary-currents"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze",
+      "imab4bsh"
+    ],
+    "last_commit": "2022-11-30 16:42",
+    "custom_properties": {}
+  },
+  {
+    "repo": "dm-report-template",
+    "description": "Report template and Matlab codes used to generate DMQC report for core Argo parameters",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "dmqc",
+      "monitoring",
+      "quality-control",
+      "template"
+    ],
+    "releases": [],
+    "contributors": [
+      "kamwal"
+    ],
+    "last_commit": "2021-03-04 17:24",
+    "custom_properties": {}
+  },
+  {
+    "repo": "3HeadedAnalysis",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "ago-floats",
+      "argo-deep",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "Martin-ifr",
+      "PedroVelez",
+      "Alberto-GS"
+    ],
+    "last_commit": "2022-03-08 08:40",
+    "custom_properties": {}
+  },
+  {
+    "repo": "clean_CTD-RDB_for2021v01release",
+    "description": "Prepare new release of the CTD reference database for Argo DMQC",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argofloat",
+      "dmqc",
+      "quality-control",
+      "reference-database"
+    ],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2023-02-01 14:56",
+    "custom_properties": {}
+  },
+  {
+    "repo": "DOXY-TOOLS_presentations",
+    "description": "All the presentations at the virtual DOXY meeting of the 20th November 2020",
+    "language": "",
+    "topics": [
+      "argo-bgc",
+      "argo-floats",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "catsch"
+    ],
+    "last_commit": "2021-01-05 14:05",
+    "custom_properties": {}
+  },
+  {
+    "repo": "binder-sandbox",
+    "description": "Sandbox for Binder service at euroargodev",
+    "language": "Shell",
+    "topics": [
+      "binder-ready",
+      "docker",
+      "jupyter-notebook",
+      "python"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-02-02 15:34",
+    "custom_properties": {}
+  },
+  {
+    "repo": "earise-rbr",
+    "description": "RBR CTD analysis in EARISE",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo",
+      "argofloat",
+      "quality-control",
+      "rbr-ctd"
+    ],
+    "releases": [],
+    "contributors": [
+      "argobot-hub",
+      "gmaze",
+      "quai20"
+    ],
+    "last_commit": "2026-06-17 10:16",
+    "custom_properties": {}
+  },
+  {
+    "repo": "floatoftheday",
+    "description": "Tweets Images of the ArgoFloat of the day",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "monitoring",
+      "tweet"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2023-11-10 08:22",
+    "custom_properties": {}
+  },
+  {
+    "repo": "BBP_RTQC",
+    "description": "Proposed tests for RTQC of BBP700 data",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo",
+      "argo-bgc",
+      "argo-floats",
+      "argofloat",
+      "bbp",
+      "python",
+      "quality-control",
+      "rtqc"
+    ],
+    "releases": [
+      "BBP_RTQC_v2.0.0",
+      ""
+    ],
+    "contributors": [
+      "grgdll"
+    ],
+    "last_commit": "2023-05-14 11:12",
+    "custom_properties": {}
+  },
+  {
+    "repo": "Argo_life_expectancy_analyses",
+    "description": "Argo life expectancy analysis (WP2.1 of the Euro-Argo RISE project)",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argofloat",
+      "life-expectancy",
+      "monitoring",
+      "performance"
+    ],
+    "releases": [],
+    "contributors": [
+      "lucarduini"
+    ],
+    "last_commit": "2022-02-23 13:44",
+    "custom_properties": {}
+  },
+  {
+    "repo": "DMQC_status_and_statistics",
+    "description": "Figures for DMQC statistics for a given list of floats",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [
+      "V3.6.1 (19 October 2026)",
+      "V3.6 (5 October 2026)",
+      "V3.5.1 (17 October 2025)",
+      "V3.5",
+      "V3.4 (31 July 2024)",
+      "V3.3 (2 October 2023)",
+      "V3.2 (21 July 2023)",
+      "V3.1 (13 July 2023)",
+      "V1.0 (23 Feb 2022)"
+    ],
+    "contributors": [
+      "delphinedobler",
+      "lucarduini"
+    ],
+    "last_commit": "2026-10-19 11:43",
+    "custom_properties": {}
+  },
+  {
+    "repo": "bgc_derivation",
+    "description": "The project for developing a common set of BGC parameter derivation equation functions.",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argo-bgc",
+      "argo-floats",
+      "argofloat"
+    ],
+    "releases": [],
+    "contributors": [
+      "MCazaly",
+      "vidkris",
+      "qtl-bodc",
+      "SteveLoch",
+      "matdon17"
+    ],
+    "last_commit": "2022-10-25 14:38",
+    "custom_properties": {}
+  },
+  {
+    "repo": "OSnet-earise",
+    "description": "EARISE WP2.3: Learning in-situ hydrographic profiles from satellite data using a neural network",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "neural-network",
+      "oceanography"
+    ],
+    "releases": [],
+    "contributors": [
+      "EPauthenet",
+      "loicbachelot",
+      "quai20",
+      "gmaze"
+    ],
+    "last_commit": "2024-09-12 13:58",
+    "custom_properties": {}
+  },
+  {
+    "repo": "seaice_profile",
+    "description": "Script to calculate calculate the distance to the ice (edge) from a given position (& date)",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argo-traj",
+      "argo-under-ice"
+    ],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2023-09-29 16:03",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argortqcpy",
+    "description": "Development of a complete, infrastructure agnostic, Argo near real-time quality control test toolbox in Python",
+    "language": "Python",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argofloat",
+      "quality-control",
+      "rtqc"
+    ],
+    "releases": [],
+    "contributors": [
+      "halebodc",
+      "MCazaly",
+      "matdon17"
+    ],
+    "last_commit": "2021-06-22 15:55",
+    "custom_properties": {}
+  },
+  {
+    "repo": "Check_new_D-files",
+    "description": "Check consistency of new D files",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argofloat",
+      "dmqc",
+      "quality-control",
+      "rtqc"
+    ],
+    "releases": [],
+    "contributors": [
+      "mpacciaroniOGS"
+    ],
+    "last_commit": "2021-06-24 10:04",
+    "custom_properties": {}
+  },
+  {
+    "repo": "plot_timeseries_NS",
+    "description": "DMQC plot timeseries of interpolated salinity in Nordic Seas in OWC",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argofloat",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2021-10-18 11:38",
+    "custom_properties": {}
+  },
+  {
+    "repo": "BGC-ARGO_R_WORKSHOP",
+    "description": "R tool for accessing, processing, and visualizing BGC Argo",
+    "language": "R",
+    "topics": [
+      "argo",
+      "argo-bgc",
+      "argo-floats",
+      "argofloat"
+    ],
+    "releases": [
+      "BGC-Argo-R v3.0",
+      "BGC-Argo-R v2.1",
+      "v2.0",
+      "First release"
+    ],
+    "contributors": [
+      "qjutard",
+      "catsch"
+    ],
+    "last_commit": "2023-03-08 12:56",
+    "custom_properties": {}
+  },
+  {
+    "repo": "terrain-following",
+    "description": "This is the terrain-following interpolation algorithm  documented in Yamazaki+(2020) https://doi.org/10.1029/2019JC015406.",
+    "language": "Python",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argo-traj",
+      "argo-under-ice",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "KaiheYamazaki"
+    ],
+    "last_commit": "2022-12-08 08:23",
+    "custom_properties": {}
+  },
+  {
+    "repo": "DMQC-PCM",
+    "description": "Improve reference profile selection for DMQC using a Profile Classification Model (PCM)",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "dmqc",
+      "machine-learning",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "AndreaGarciaJuan",
+      "gmaze"
+    ],
+    "last_commit": "2026-08-11 13:45",
+    "custom_properties": {}
+  },
+  {
+    "repo": "WMO-boxes-reshaping",
+    "description": "WMO boxes used in OWC are reshaped according to the dimensions of selected sub-basins.",
+    "language": "MATLAB",
+    "topics": [
+      "argo",
+      "argo-floats",
+      "argofloat",
+      "dmqc",
+      "quality-control",
+      "reference-database"
+    ],
+    "releases": [],
+    "contributors": [
+      "gnotarstefano"
+    ],
+    "last_commit": "2021-09-24 09:41",
+    "custom_properties": {}
+  },
+  {
+    "repo": "CTD-RDB_2022_Pangea",
+    "description": "",
+    "language": "MATLAB",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2023-02-09 07:48",
+    "custom_properties": {}
+  },
+  {
+    "repo": "radiometry_QC",
+    "description": "Testing the radiometry QC flagging from E. Organelli  January 2015",
+    "language": "",
+    "topics": [
+      "argo-bgc",
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "qjutard"
+    ],
+    "last_commit": "2026-01-24 10:01",
+    "custom_properties": {}
+  },
+  {
+    "repo": "OSnet",
+    "description": "OSnet is a python repository for learning in-situ hydrographic profiles from satellite data using a neural network.",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "neural-network",
+      "oceanography"
+    ],
+    "releases": [
+      "OSnet v1.0"
+    ],
+    "contributors": [
+      "EPauthenet",
+      "gmaze"
+    ],
+    "last_commit": "2024-04-25 15:37",
+    "custom_properties": {}
+  },
+  {
+    "repo": "OSnet-GulfStream",
+    "description": "A model to predict T/S profiles in the Gulf Stream region from surface data",
+    "language": "PureBasic",
+    "topics": [
+      "neural-network",
+      "oceanography"
+    ],
+    "releases": [
+      "OSnet-GulfStream v1.0"
+    ],
+    "contributors": [
+      "gmaze",
+      "EPauthenet",
+      "dependabot[bot]"
+    ],
+    "last_commit": "2023-03-13 17:02",
+    "custom_properties": {}
+  },
+  {
+    "repo": "ISAdecisionplot",
+    "description": "This repository will host scripts to generate the ISA (Ice Sensing Algorithm) decision plots",
+    "language": "MATLAB",
+    "topics": [
+      "argo-floats",
+      "argo-under-ice",
+      "sea-ice"
+    ],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2022-03-01 09:38",
+    "custom_properties": {}
+  },
+  {
+    "repo": "binder-links-creator",
+    "description": "Online form to create \"Open with Binder\" links",
+    "language": "CSS",
+    "topics": [
+      "binder",
+      "helper-tool"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2025-01-10 15:43",
+    "custom_properties": {}
+  },
+  {
+    "repo": "explore",
+    "description": "Community-curated topic and collection pages on GitHub",
+    "language": "Ruby",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "shaedrich",
+      "MikeMcQuaid",
+      "smashwilson",
+      "ahpook",
+      "cheshire137",
+      "talsafran",
+      "dependabot[bot]",
+      "leereilly",
+      "octokatherine",
+      "dependabot-preview[bot]",
+      "actions-user",
+      "nholden",
+      "jmeridth",
+      "himanshu1603",
+      "kenyonj",
+      "tomthorogood",
+      "AyushShahh",
+      "danieljancar",
+      "ipc103",
+      "kolappannathan",
+      "AdamRaichu",
+      "carlosdelfino",
+      "zkoppert",
+      "oxygen-dioxide",
+      "gallexi",
+      "sharafdin",
+      "BlakeWilliams",
+      "sidx8",
+      "dependabot-support",
+      "suitupstan",
+      "serjan-nasredin",
+      "SmallPepperZ",
+      "infinitepower18",
+      "iancanderson",
+      "Minionguyjpro",
+      "TheBearodactyl",
+      "brandonrosage",
+      "AlexStefan",
+      "SidVal",
+      "mikaeldui",
+      "ileshmistry",
+      "officialrajdeepsingh",
+      "Kristories",
+      "underwoo16",
+      "kbdharun",
+      "lint-action",
+      "MattIPv4",
+      "angrymouse",
+      "j-f1",
+      "thomasbnt",
+      "R4356th",
+      "KTibow",
+      "m1guelpf",
+      "mvkaran",
+      "Wladefant",
+      "kiliczsh",
+      "cthoyt",
+      "Nixinova",
+      "LetterN",
+      "miguelpalazzo",
+      "paulcsmith",
+      "SebConejo",
+      "andypiper",
+      "ezhasyafaat",
+      "george-gca",
+      "abraham",
+      "anki-code",
+      "AshishVarshneyy",
+      "rmathew1992",
+      "mjrlowe",
+      "rcalixte",
+      "prakashsellathurai",
+      "ob1dev",
+      "TheGiraffe3",
+      "BeverlyCode",
+      "noraa-junker",
+      "abranhe",
+      "JefferyLukas",
+      "ofekashery",
+      "jonasbn",
+      "oblomov-dev",
+      "Mr-Skully",
+      "boazsender",
+      "AndreaGriffiths11",
+      "theel0ja",
+      "mlinksva",
+      "berrysauce",
+      "rbourdon",
+      "Udi-Hofesh",
+      "TuberAsk",
+      "PatMyron",
+      "alelazcano",
+      "luisgbr1el",
+      "Mearman",
+      "mgks",
+      "mrhappyma",
+      "denisJaved",
+      "david-fong",
+      "chroxify",
+      "bdougie"
+    ],
+    "last_commit": "2025-04-18 12:51",
+    "custom_properties": {}
+  },
+  {
+    "repo": ".github",
+    "description": "README at the org level",
+    "language": "",
+    "topics": [
+      "argo-floats"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze",
+      "gaelforget"
+    ],
+    "last_commit": "2025-09-30 17:26",
+    "custom_properties": {}
+  },
+  {
+    "repo": "2HeadedAnalysis",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [],
+    "last_commit": "2022-03-29 14:19",
+    "custom_properties": {}
+  },
+  {
+    "repo": "terrain-following-example",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo-floats",
+      "argo-under-ice"
+    ],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2022-04-25 15:16",
+    "custom_properties": {}
+  },
+  {
+    "repo": "VirtualFleet_Optimization",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "LJMatthieu",
+      "imab4bsh"
+    ],
+    "last_commit": "2022-12-06 09:05",
+    "custom_properties": {}
+  },
+  {
+    "repo": "boundary_currents_pcm",
+    "description": "PCM analysis in Boundary Currents",
+    "language": "Python",
+    "topics": [
+      "argo-floats",
+      "classification-model",
+      "ocean-boundary-currents",
+      "oceanography",
+      "pcm"
+    ],
+    "releases": [],
+    "contributors": [
+      "argobot-hub",
+      "gmaze",
+      "dependabot[bot]"
+    ],
+    "last_commit": "2026-11-02 07:51",
+    "custom_properties": {}
+  },
+  {
+    "repo": "VirtualFleet_GulfStream",
+    "description": "Virtual Fleet simulations for the Gulf Stream Extension",
+    "language": "Python",
+    "topics": [
+      "argo-floats",
+      "ocean-boundary-currents"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2022-10-17 08:12",
+    "custom_properties": {}
+  },
+  {
+    "repo": "baltic-dmqc-tools",
+    "description": "Tools, scripts and code-snippets that are used or could be useful in developing the Baltic Sea Argo float DMQC processes.",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "BSHbirgit",
+      "GosiaMerchel2020",
+      "siirias"
+    ],
+    "last_commit": "2022-06-21 12:44",
+    "custom_properties": {}
+  },
+  {
+    "repo": "ARGO_withespace_method",
+    "description": "",
+    "language": "MATLAB",
+    "topics": [
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "MatteoMarasco",
+      "imab4bsh"
+    ],
+    "last_commit": "2022-06-30 15:19",
+    "custom_properties": {}
+  },
+  {
+    "repo": "Argo-data-management-documents",
+    "description": "Argo data management manuals, cookbooks and reference tables",
+    "language": "",
+    "topics": [
+      "argo-dac",
+      "argo-floats",
+      "gdac",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "tcarval",
+      "catsch"
+    ],
+    "last_commit": "2024-02-12 12:53",
+    "custom_properties": {}
+  },
+  {
+    "repo": "dm_floats_deep",
+    "description": "Matlab tools for creating OWC input files (with Cpcor corrected) and writing D_files from OWC results : for DEEP floats",
+    "language": "MATLAB",
+    "topics": [
+      "argo-deep",
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "cabanesc"
+    ],
+    "last_commit": "2026-09-10 10:50",
+    "custom_properties": {}
+  },
+  {
+    "repo": "demo-repository",
+    "description": "A code repository designed to show the best GitHub has to offer.",
+    "language": "HTML",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2022-09-16 13:02",
+    "custom_properties": {}
+  },
+  {
+    "repo": "SO_assessment_floats_review",
+    "description": "This repository includes the examples from the SO assessment of floats showing discrepancies to the traditional OWC method",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [],
+    "last_commit": "2022-09-23 15:13",
+    "custom_properties": {}
+  },
+  {
+    "repo": "VirtualFleet_recovery",
+    "description": "Argo float recovery helper",
+    "language": "Python",
+    "topics": [
+      "argo-floats",
+      "recovery",
+      "simulation",
+      "virtualfleet"
+    ],
+    "releases": [
+      "Release v0.2, Copernicus Marine Toolbox transition",
+      "v0.1 Initial release"
+    ],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2024-04-12 09:03",
+    "custom_properties": {}
+  },
+  {
+    "repo": "VirtualFleet_WMed",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "ldiaz-barroso",
+      "gmaze"
+    ],
+    "last_commit": "2022-11-04 09:32",
+    "custom_properties": {}
+  },
+  {
+    "repo": "dmqc_deep_examples",
+    "description": "Examples of the DMQC analysed of deep Argo floats",
+    "language": "",
+    "topics": [
+      "argo-deep",
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "cabanesc",
+      "kamwal"
+    ],
+    "last_commit": "2023-07-11 13:40",
+    "custom_properties": {}
+  },
+  {
+    "repo": "core_dmqc_bgcfloats",
+    "description": "how to deal with nprof>1 in core floats and different length of profiles in BGC floats. ",
+    "language": "",
+    "topics": [
+      "argo-floats",
+      "dmqc",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "BSHbirgit"
+    ],
+    "last_commit": "2022-11-16 10:05",
+    "custom_properties": {}
+  },
+  {
+    "repo": "VirtualFleet_NordicSeas",
+    "description": "",
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2022-11-21 10:07",
+    "custom_properties": {}
+  },
+  {
+    "repo": "Coriolis-data-processing-chain-for-Argo-floats",
+    "description": "Coriolis data processing chain for Argo floats",
+    "language": "MATLAB",
+    "topics": [
+      "argo-dac",
+      "argo-floats"
+    ],
+    "releases": [
+      "decArgo_20260202_082q",
+      "decArgo_20260128_082m",
+      "decArgo_20240130_061a",
+      "decArgo_20221110_053a",
+      "decArgo_20220922_052a",
+      "decArgo_20220829_051a",
+      "decArgo_20220601_050a",
+      "decArgo_20220428_049a",
+      "decArgo_20220406_048a",
+      "decArgo_20220217_047a",
+      "decArgo_20211125_046a",
+      "decArgo_20211108_045a",
+      "decArgo_20210913_044a",
+      "decArgo_20210622_043a",
+      "decArgo_20210512_042a",
+      "decArgo_20210419_041a",
+      "decArgo_20210301_040a",
+      "decArgo_20210112_039a",
+      "decArgo_20201216_038a",
+      "decArgo_20201103_037a",
+      "decArgo_20200924_036a",
+      "decArgo_20200609_035a",
+      "decArgo_20200415_034a",
+      "decArgo_20200214_033a",
+      "decArgo_20191210_032a",
+      "decArgo_20190920_031a",
+      "decArgo_20190710_030a",
+      "decArgo_20190522_029a",
+      "decArgo_20190217_028a",
+      "decArgo_20181219_027a"
+    ],
+    "contributors": [
+      "couppeym",
+      "tcarval",
+      "leobr29"
+    ],
+    "last_commit": "2026-02-04 18:26",
+    "custom_properties": {}
+  },
+  {
+    "repo": "Coriolis-under-ice-positioning",
+    "description": "Coriolis under-ice positioning algorithm",
+    "language": "MATLAB",
+    "topics": [
+      "argo-dac",
+      "argo-floats"
+    ],
+    "releases": [],
+    "contributors": [
+      "catsch",
+      "tcarval"
+    ],
+    "last_commit": "2022-12-07 19:03",
+    "custom_properties": {}
+  },
+  {
+    "repo": "CANYON-MED",
+    "description": "CANYON-MED codes and training weights",
+    "language": "R",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "MarineFou"
+    ],
+    "last_commit": "2024-06-10 15:46",
+    "custom_properties": {}
+  },
+  {
+    "repo": "equipex_bges",
+    "description": "Bilan Gaz \u00e0 effet de serre Equipex Argo2030",
+    "language": "",
+    "topics": [
+      "argo-floats",
+      "carbon-emissions",
+      "carbon-footprint",
+      "greenhouse-gas-emissions"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2022-11-28 13:39",
+    "custom_properties": {}
+  },
+  {
+    "repo": "nke",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [],
+    "last_commit": "2023-01-02 08:28",
+    "custom_properties": {}
+  },
+  {
+    "repo": "LOCODOX",
+    "description": "Sofware for adjusting Argo oxygen profils",
+    "language": "MATLAB",
+    "topics": [
+      "argo-bgc",
+      "argo-floats",
+      "dmqc",
+      "oxygen"
+    ],
+    "releases": [
+      "Minor corrections",
+      "",
+      "",
+      "v4.4",
+      "4.3b",
+      "Version 4.3"
+    ],
+    "contributors": [
+      "treynaud",
+      "gmaze"
+    ],
+    "last_commit": "2026-10-02 08:15",
+    "custom_properties": {}
+  },
+  {
+    "repo": "EuroArcticUnderIce",
+    "description": "Repository for the code, data, etc. for the paper to be submitted to JTECH",
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2023-09-05 13:39",
+    "custom_properties": {}
+  },
+  {
+    "repo": "DMQC-fun",
+    "description": "DMQC-fun is a comprehensive toolbox for performing DMQC on and salinity calibration of core data from Argo floats.",
+    "language": "MATLAB",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "evenrev1",
+      "imab4bsh"
+    ],
+    "last_commit": "2023-10-26 15:34",
+    "custom_properties": {}
+  },
+  {
+    "repo": "beges_argo2030",
+    "description": "BGES du projet ANR Argo-2030",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo-floats",
+      "beges",
+      "ges",
+      "greenhouse-gas-emissions"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2023-09-20 09:25",
+    "custom_properties": {}
+  },
+  {
+    "repo": "sensor_metadata_json",
+    "description": "Tools, schemas and example files for metadata for ocean platforms and sensors",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "SBS-EREHM",
+      "BrianKingNOC"
+    ],
+    "last_commit": "2026-02-04 19:30",
+    "custom_properties": {}
+  },
+  {
+    "repo": "projet_MPA",
+    "description": "projet MPA , UBO 2023-2024, application web pour la classification non-supervis\u00e9e de donn\u00e9es Argo",
+    "language": "Python",
+    "topics": [
+      "argo-floats"
+    ],
+    "releases": [],
+    "contributors": [
+      "mompm"
+    ],
+    "last_commit": "2024-03-08 16:35",
+    "custom_properties": {}
+  },
+  {
+    "repo": "VirtualFleet_recovery_webapp",
+    "description": "",
+    "language": "HTML",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2023-11-20 13:29",
+    "custom_properties": {}
+  },
+  {
+    "repo": "recovery-PIRATA-6903091",
+    "description": "Float 6903091 recovery study for PIRATA cruise FR34 / March 2024",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo-floats",
+      "recovery"
+    ],
+    "releases": [],
+    "contributors": [
+      "argobot-hub",
+      "gmaze"
+    ],
+    "last_commit": "2024-05-07 08:06",
+    "custom_properties": {}
+  },
+  {
+    "repo": "Coriolis-data-processing-chain-for-Argo-floats-container",
+    "description": "Coriolis data processing chain for Argo floats Containerized",
+    "language": "MATLAB",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "leobr29",
+      "tcarval"
+    ],
+    "last_commit": "2026-01-29 11:46",
+    "custom_properties": {}
+  },
+  {
+    "repo": "test_container",
+    "description": "Dummy test container run in GA",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2024-03-07 14:56",
+    "custom_properties": {}
+  },
+  {
+    "repo": "DMQC_Arctic_Positions",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2024-06-11 13:39",
+    "custom_properties": {}
+  },
+  {
+    "repo": "online_documentation",
+    "description": "A template for online documentation",
+    "language": "Python",
+    "topics": [
+      "argo-floats",
+      "documentation",
+      "template"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-06-10 11:46",
+    "custom_properties": {}
+  },
+  {
+    "repo": "euroargo_operations",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "RomainCancouet",
+      "gmaze"
+    ],
+    "last_commit": "2025-02-05 12:22",
+    "custom_properties": {}
+  },
+  {
+    "repo": ".github-private",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2025-09-30 17:25",
+    "custom_properties": {}
+  },
+  {
+    "repo": "ArgoUnderIceArctic",
+    "description": "",
+    "language": "MATLAB",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2024-08-02 08:06",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argopy-5years",
+    "description": "\ud83c\udf82 Celebrating argopy 5 years anniversary",
+    "language": "CSS",
+    "topics": [
+      "argofloat",
+      "argopy"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze",
+      "quai20"
+    ],
+    "last_commit": "2024-12-11 10:41",
+    "custom_properties": {}
+  },
+  {
+    "repo": "ARCTIC_EA-RISE",
+    "description": "This repository contains all products from the Euro-Argo RISE project that are related to the Argo Program geographical extension in the Arctic.",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2024-09-19 09:31",
+    "custom_properties": {}
+  },
+  {
+    "repo": "ARGO_ARCTIC_EA-RISE",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "imab4bsh"
+    ],
+    "last_commit": "2024-09-19 10:14",
+    "custom_properties": {}
+  },
+  {
+    "repo": "test-custom-props",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2025-02-20 19:29",
+    "custom_properties": {}
+  },
+  {
+    "repo": "PAR_BGC_Argo",
+    "description": "Calculation of unbiased PAR from multispectral irradiance profiles",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "jaipipor"
+    ],
+    "last_commit": "2025-04-25 18:04",
+    "custom_properties": {}
+  },
+  {
+    "repo": "software_guidelines",
+    "description": "Argo software development guidelines",
+    "language": "Python",
+    "topics": [
+      "argofloats",
+      "collaborative",
+      "fair",
+      "fair4rs",
+      "guidelines",
+      "open-source"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze",
+      "quai20"
+    ],
+    "last_commit": "2026-06-16 12:32",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argopy-training",
+    "description": "Argopy training related content",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "argo-floats"
+    ],
+    "releases": [
+      "Training with Argopy v1.5.0",
+      "Training with Argopy v1.4.0",
+      "Training with Argopy v1.3.1",
+      "Training with Argopy v1.3.0"
+    ],
+    "contributors": [
+      "gmaze",
+      "quai20",
+      "actions-user"
+    ],
+    "last_commit": "2026-10-15 09:28",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argo-metadata-validator",
+    "description": "Validator for ARGO sensor, platform, and float metadata JSON files",
+    "language": "Python",
+    "topics": [],
+    "releases": [
+      "v0.0.9",
+      "Add warning level to validation - alpha release",
+      "v0.0.8",
+      "0.0.8a1",
+      "v0.0.7",
+      "v0.0.6",
+      "v0.0.5",
+      "v0.0.4",
+      "Release to Zenodo",
+      "Add parsing of metadata to Pydantic models",
+      "First Release"
+    ],
+    "contributors": [
+      "matcor451",
+      "gmaze",
+      "hb-bodc"
+    ],
+    "last_commit": "2026-07-14 14:58",
+    "custom_properties": {}
+  },
+  {
+    "repo": "Software-Evaluator",
+    "description": "A web application to evaluate software repositories based on euroargodev software guidelines.",
+    "language": "JavaScript",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "Jade2097",
+      "gmaze"
+    ],
+    "last_commit": "2026-08-13 08:45",
+    "custom_properties": {}
+  },
+  {
+    "repo": "EasyOneArgo",
+    "description": "To deliver the best Argo data to users in the simplest way, No QC flags; No data mode; No manuals - Just straight forward good data",
+    "language": "MATLAB",
+    "topics": [
+      "argofloats"
+    ],
+    "releases": [
+      "EasyOneArgo Core and BGC",
+      "mono-cycle profile files as input"
+    ],
+    "contributors": [
+      "tcarval"
+    ],
+    "last_commit": "2026-10-16 09:39",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argo-metadata-loader",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "matcor451"
+    ],
+    "last_commit": "2026-01-20 08:42",
+    "custom_properties": {}
+  },
+  {
+    "repo": "pydox",
+    "description": "A Python library for Argo Oxygen Calibration and Adjustment",
+    "language": "Python",
+    "topics": [
+      "argo-bgc",
+      "argo-floats",
+      "calibration",
+      "oxygen",
+      "quality-control"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze",
+      "CKermabon",
+      "dependabot[bot]"
+    ],
+    "last_commit": "2026-11-09 15:21",
+    "custom_properties": {}
+  },
+  {
+    "repo": "pysprof",
+    "description": "A Python library to generate Sprof files",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-11-24 10:17",
+    "custom_properties": {}
+  },
+  {
+    "repo": "matsprof",
+    "description": "Standalone Matlab script to generate Sprof files",
+    "language": "MATLAB",
+    "topics": [],
+    "releases": [
+      "v1.24"
+    ],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-11-25 09:04",
+    "custom_properties": {}
+  },
+  {
+    "repo": "pyIRR2PAR",
+    "description": "Calculation of PAR from multispectral irradiance profiles according to Argo recommendations (Python version)",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "EdLeymarie",
+      "gmaze"
+    ],
+    "last_commit": "2026-04-08 12:32",
+    "custom_properties": {}
+  },
+  {
+    "repo": "matIRR2PAR",
+    "description": "Calculation of PAR from multispectral irradiance profiles according to Argo recommendations (MATLAB version)",
+    "language": "MATLAB",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "sebartoloni",
+      "EdLeymarie"
+    ],
+    "last_commit": "2026-04-08 16:03",
+    "custom_properties": {}
+  },
+  {
+    "repo": "FloatMatcher",
+    "description": "A python library for third-party dataset matchup with Argo floats ",
+    "language": "Jupyter Notebook",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "cwebear",
+      "gmaze"
+    ],
+    "last_commit": "2026-11-25 15:04",
+    "custom_properties": {}
+  },
+  {
+    "repo": "VirtualFleet_webapp",
+    "description": "Web app for the VirtualFleet package. A user-friendly way to launch and analyse simulations of virtual Argo float trajectories.",
+    "language": "Python",
+    "topics": [],
+    "releases": [
+      "v1.0.0"
+    ],
+    "contributors": [
+      "fricour"
+    ],
+    "last_commit": "2026-10-14 12:20",
+    "custom_properties": {}
+  },
+  {
+    "repo": "COMPUTE_HYPERSPECTRAL_RADIOMETRY_WAVELENGTHS",
+    "description": "",
+    "language": "R",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "catsch"
+    ],
+    "last_commit": "2026-10-20 14:45",
+    "custom_properties": {}
+  },
+  {
+    "repo": "EXPERIMENTAL_SENSORS_INTEGRATION",
+    "description": "",
+    "language": "",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "catsch",
+      "EdLeymarie"
+    ],
+    "last_commit": "2026-11-03 12:34",
+    "custom_properties": {}
+  },
+  {
+    "repo": "dmqc_doxy_exchange_format",
+    "description": "Defining a file and data format to exchange DOXY calibration results",
+    "language": "",
+    "topics": [
+      "argo",
+      "argo-bgc",
+      "argo-float",
+      "argo-floats",
+      "doxy"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-10-14 10:11",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argoflat",
+    "description": "The Argo dataset as a lossless (not opinionated), analysis-ready, cloud-optimized contiguous ragged array",
+    "language": "Python",
+    "topics": [
+      "analysis-ready",
+      "arco",
+      "argo-floats",
+      "argofloat",
+      "cloud-optimized",
+      "ragged-array"
+    ],
+    "releases": [
+      "v0.1.0rc2",
+      "v0.1.0.rc1"
+    ],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-11-16 13:32",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argo_rust_lab",
+    "description": "Argo NetCDF data manipulation operations implemented in Rust",
+    "language": "Rust",
+    "topics": [
+      "argo-data",
+      "argo-floats",
+      "argoflats",
+      "rust"
+    ],
+    "releases": [],
+    "contributors": [
+      "gmaze"
+    ],
+    "last_commit": "2026-10-30 23:33",
+    "custom_properties": {}
+  },
+  {
+    "repo": "hello_uv",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "Jade2097"
+    ],
+    "last_commit": "2026-11-16 10:39",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argopy_uv_mini",
+    "description": "",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "Jade2097"
+    ],
+    "last_commit": "2026-11-19 11:43",
+    "custom_properties": {}
+  },
+  {
+    "repo": "argopy_pixi_mini",
+    "description": "Experimental Argopy prototype using Pixi and Hatchling.",
+    "language": "Python",
+    "topics": [],
+    "releases": [],
+    "contributors": [
+      "Jade2097"
+    ],
+    "last_commit": "2026-11-25 14:55",
+    "custom_properties": {
+      "Argo-SIL": "SIL-1 (Basic Concept Exploration)"
+    }
+  }
+]
